@@ -1,0 +1,19 @@
+
+
+#wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  row-gap: 10px;
+  column-gap: 10px;
+  place-content: center;
+  
+  
+}
+
+#rules{
+  margin-top: 20px;
+}
+
+#rejouer{
+  margin-top: 50px;
+}
