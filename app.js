@@ -56,10 +56,10 @@ var card_animation = [
             box.style.height="100px"
             box.style.padding="25%"
             var card= list_menu[Math.floor(Math.random()*list_menu.length)]
-            box.style.backgroundImage= "url('images/" + box.className.slice(0,box.className.length - 1) + ".jpg')"
-            box.style.backgroundImage= "url('images/question.png')"
             var index_card=list_menu.indexOf(card)
             box.className=card;
+            box.style.backgroundImage= "url('images/" + box.className.slice(0,box.className.length - 1) + ".jpg')"
+            box.style.backgroundImage= "url('images/question.png')"
             box.id='question'
             list_menu.splice(index_card,1)
             wrapper.append(box);
