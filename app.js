@@ -58,11 +58,11 @@ var card_animation = [
             var card= list_menu[Math.floor(Math.random()*list_menu.length)]
             var index_card=list_menu.indexOf(card)
             box.className=card;
-            box.style.backgroundImage= "url('images/" + box.className.slice(0,box.className.length - 1) + ".jpg')"
-            box.style.backgroundImage= "url('images/question.png')"
             box.id='question'
             list_menu.splice(index_card,1)
             wrapper.append(box);
+            box.style.backgroundImage= "url('images/" + box.className.slice(0,box.className.length - 1) + ".jpg')"
+            box.style.backgroundImage= "url('images/question.png')"
             
         
         }
